@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Button, Card, Grid, Icon, Image } from "semantic-ui-react";
+import { Button, Card, Grid, Icon } from "semantic-ui-react";
 import styles from "./Landing.module.scss";
 
 export default class Landing extends Component {
@@ -20,7 +20,7 @@ export default class Landing extends Component {
                 </Card.Description>
               </Card.Content>
               <Card.Content>
-                <Button as="a" href="/portfolio">
+                <Button as="a" href="/portfolio" primary>
                   View my works <Icon name="arrow right" />
                 </Button>
               </Card.Content>
